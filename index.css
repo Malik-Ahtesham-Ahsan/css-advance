@@ -1,0 +1,53 @@
+.radius
+{
+    background-color: aqua;
+    height: 5rem;
+    width: 10rem;
+    border-radius: 5rem;
+}
+.border-img{
+    padding: 125px;
+    border: 10px solid black;
+    border-image : url("./66.png")30 round;
+}
+.shadow
+{
+    text-shadow: 2px 2px red;
+}
+.transition
+{
+    background-color: aqua;
+    height: 7rem;
+    width: 10rem;
+    transition: widt 2s;
+}
+.transition:hover
+{
+    width: 20rem;
+}
+
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation-name: first;
+    animation-duration: 4s;
+}
+
+@keyframes first{
+    from{background-color:green;}
+    to {background-color: darkcyan;}
+}
+
+.pagination{
+    display: inline-block;
+}
+.pagination a{
+    text-decoration: none;
+    padding: 15px 32px ;
+    float: left;
+    color: black;
+}
+.pagination a:hover{
+    color: red;
+}
